@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import Button from "./Button";
+import Card from "./Card";
 
 const Navbar = () => {
   return ( <>
@@ -20,36 +22,19 @@ const Navbar = () => {
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
-        <li><a href="/profile">Profile</a></li>
+        <li><button type="button"><a href="/login">log In</a></button></li>
+
       </ul>
     </nav>
-      {/* Item Grid
-      <div className="item-grid">
-        {items.map((item) => (
-          <div className="item-card" key={item.id}>
-            <img src={item.image} alt={item.name} />
-            <h3>{item.name}</h3>
-            <p>${item.price}</p>
-            <button onClick={() => handleAddToCart(item)}>Add to Cart</button>
-          </div>
-        ))}
-      </div>
+    <Button huhu="color change here😀"/>
+    <p>Welcome to my Website haai</p>
 
-      {/* Cart */}
-      {/* <div className="cart">
-        <h2>Your Cart</h2>
-        {cart.length === 0 ? (
-          <p>Your cart is empty.</p>
-        ) : (
-          <ul>
-            {cart.map((item, index) => (
-              <li key={index}>
-                {item.name} - ${item.price}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div> */} 
+    <Card/>
+    
+    <Card/>
+
+
+    
     
     </>
     

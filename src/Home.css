@@ -95,7 +95,10 @@ body {
 }
 
 
-
+p{
+    text-align: center;
+    font-size: 40px;
+}
 /* Item Grid */
 /* .item-grid {
     display: grid;

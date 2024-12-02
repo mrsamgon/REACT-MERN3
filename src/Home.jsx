@@ -2,13 +2,14 @@ import React from "react";
 import "./Home.css";
 import Button from "./Button";
 import Card from "./Card";
+import UseState from "./UseState";
 
 const Navbar = () => {
   return ( <>
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        <a href="/">E-Shop</a>
+        <a href="/">MR-Sandy</a>
       </div>
 
       {/* Search Bar */}
@@ -29,9 +30,14 @@ const Navbar = () => {
     <Button huhu="color change here😀"/>
     <p>Welcome to my Website haai</p>
 
+   
+    <h3  style={{textAlign: "center", alignItems: "center", fontSize:"49px",}} ><a href="/UseState"> <button>useState😍</button></a></h3>
+    <h3  style={{textAlign: "center", alignItems: "center", fontSize:"49px",}} ><a href="/UseEffect"> <button>UseEFFECT😚</button></a></h3>
+
     <Card/>
     
     <Card/>
+
 
 
     

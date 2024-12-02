@@ -10,6 +10,7 @@ import LoginPage from './LoginPage'
 import Test from './Test'
 import Card from './Card'
 import UseState from './UseState'
+import UseEffect from './UseEffect'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <Route path='/Test' element={<Test/>} />
       <Route path='/card' element={<Card/>} />
       <Route path='/useState' element={<UseState/>} />
+      <Route path='/useEffect' element={<UseEffect/>} />
+
 
 
 
